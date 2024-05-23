@@ -530,6 +530,7 @@ GameObject:
   - component: {fileID: 273007681}
   - component: {fileID: 273007680}
   - component: {fileID: 273007679}
+  - component: {fileID: 273007683}
   m_Layer: 0
   m_Name: floor-GameControler
   m_TagString: Untagged
@@ -623,6 +624,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &273007683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 273007678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef100941d4c113049a77d24d007b817d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score_object: {fileID: 85050635}
 --- !u!1001 &766462993
 PrefabInstance:
   m_ObjectHideFlags: 0
