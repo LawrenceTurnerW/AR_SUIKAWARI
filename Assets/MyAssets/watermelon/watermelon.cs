@@ -42,7 +42,7 @@ public class NewBehaviourScript : MonoBehaviour
             {
                 rnd1 = rnd1 * -1;
             }
-            int rnd2 = Random.Range(5, 8);
+            int rnd2 = Random.Range(13, 15);
 
             int rnd3 = Random.Range(5, 11);
             if (Random.Range(0, 2) == 0)
